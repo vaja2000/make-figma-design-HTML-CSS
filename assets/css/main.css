@@ -1,0 +1,378 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40PX 150px;
+}
+.logo img{
+    height: 47px;
+    width: 100px;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+    opacity: 0.8;
+}
+.fa{
+    color: white;
+}
+.icon{
+    padding: 12px;
+    margin-left: 40px;
+    background-color: red;
+    border: none;
+    opacity: 0.75;
+}
+.intro{
+    height: 208px;
+    width: 100%;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+}
+.intro h2{
+    margin: 0px 150px;
+    opacity: 0.8;
+}
+.intro p{
+    margin: 0px 150px;
+    opacity: 0.8;
+}
+.title-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px 0px 150px;
+
+}
+.title-link button{
+    background-color: red;
+    opacity: 0.75;
+    border: none;
+    color: white;
+    height: 39px;
+    width: 126px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 150px;
+}
+.cls{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/cls.jpg");
+    background-position: center;
+    background-size: 427px;
+
+}
+.brabus{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/brabus.jpg");
+    background-size: 540px;
+    background-position: center;
+}
+.sls{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/sls.jpg");
+    background-size: 489px;
+    background-position: center;
+    background-position-x: -40px;
+    background-repeat: no-repeat; 
+}
+.gle{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/gle.jpg");
+    background-size: 452px;
+    background-position: center;
+}
+.clk{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/clk.jpg");
+    background-size: 452px;
+    background-position: center;
+}
+.a-class{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/a\ class.webp");
+    background-size: 452px;
+    background-position: center;
+}
+.s-class{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/s\ class.webp");
+    background-size: 539px;
+    background-position: center;
+}
+.c-class{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/c\ class.jpg");
+    background-size: 452px;
+    background-position: center;
+    background-position-x: -40px;
+}
+.ml{
+    width: 392px;
+    height: 303px;
+    background: #e6e6e6;
+    margin: 7px 7px;
+    background-image: url("./images/ml.jpg");
+    background-size: 454px;
+    background-position: center;
+    background-position-x: -38px;
+}
+.button-title{
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+.gmail{
+    background-color: red;
+    opacity: 0.75;
+    border: none;
+    height: 35px;
+    width: 126px;
+    color: white;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.text-title{
+    margin: 40px 150px;
+    opacity: 0.8;
+}
+.service{
+    display: flex;
+    margin-left: 230px;
+}
+.bmw{
+    height: 114px;
+    width: 114px;
+    background: #F2F2F2;
+    margin-right: 200px;
+    border-radius: 60px;
+    background-image: url("./images/bmw-logo1.jpg");
+    background-size: 114px;
+}
+.ford{
+    height: 114px;
+    width: 114px;
+    background: #F2F2F2;
+    margin-right: 200px;
+    border-radius: 60px;
+    background-image: url("./images/ford_w_1x.jpg");
+    background-size: 135px;
+    background-position-x: -9px;
+    background-position-y: center;
+}
+.wolksvagen{
+    height: 114px;
+    width: 114px;
+    background: #F2F2F2;
+    margin-right: 200px;
+    border-radius: 60px;
+    background-image: url("./images/Volkswagen_Logo.jpg");
+    background-position: center;
+    background-size: 207px;
+}
+.audi{
+    height: 114px;
+    width: 114px;
+    background: #F2F2F2;
+    margin-right: 200px;
+    border-radius: 60px;
+    background-image: url("./images/new-audi-logo.jpg");
+    background-size: 200px;
+    background-position: center;
+    background-position-x: -44px
+}
+.description{
+    display: flex;
+    margin: 0px 150px;
+}
+.bmw-description{
+    margin-left: 56px;
+}
+.bmw-description h2{
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 47px;
+}
+.ford-description{
+    margin-left: 80px;
+}
+.ford-description h2{
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 56px;
+}
+.wolkswagen-description{
+    margin-left: 24px;
+}
+.wolkswagen-description h2{
+    font-size: 30px;
+    font-family: cursive;
+}
+.audi-description{
+    margin-left: 71px;
+}
+.audi-description h2{
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 31px;
+}
+.old-models-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 150px;
+}
+.old-model-1906{
+    display: flex;
+}
+.model-1906{
+    height: 185px;
+    width: 185px;
+    background-color: #bfbfbf;
+    background-image: url("./images/mercedes\ 1906.jpg");
+    background-size: 215px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.old-model-1957{
+    display: flex;
+    margin-left: 391px;
+}
+.model-1957{
+    height: 185px;
+    width: 185px;
+    background-color: #bfbfbf;
+    background-image: url("./images/mercedes\ 1957.jpg");
+    background-size: 250px;
+    background-position-x: -30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.old-model-1940{
+    display: flex;
+    margin-top: 50px;
+}
+.model-1940{
+    height: 185px;
+    width: 185px;
+    background-color: #bfbfbf;
+    background-image: url("./images/mercedes\ 1940.jpg");
+    background-size: 218px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.old-model-1970{
+    display: flex;
+    margin-left: 386px;
+    margin-top: 50px;
+}
+.model-1970{
+    height: 185px;
+    width: 185px;
+    background-color: #bfbfbf;
+    background-image: url("./images/merxedes\ 1970.jpg");
+    background-size: 261px;
+    background-position: center;
+    background-position-x: -46px;
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    margin-top: 130px;
+    opacity: 0.8;
+}
+.social-icons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons button{
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color .35s linear; 
+}
+.yandex{
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #FBAA56;
+    border:none;
+}
+.facebook{
+    padding: 15px;
+    border-radius: 60px;
+    background: #667EB7;
+    border:none;
+}
+.twitter{
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #6CC1EB;
+    border:none;
+}
+.yahoo{
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #E498C3;
+    border:none;
+}
+.youtube{
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #DA535B;
+    border:none;   
+}
+.yandex:hover{
+    background-color: rgb(224, 118, 6);
+}
+.facebook:hover{
+    background-color:rgb(49, 65, 104);
+}
+.twitter:hover{
+    background-color: rgb(21, 112, 157);
+}
+.yahoo:hover{
+    background-color: rgb(161, 43, 110);
+}
+.youtube:hover{
+    background-color: rgb(147, 31, 39);
+}
